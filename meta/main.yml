@@ -1,0 +1,21 @@
+galaxy_info:
+  author: Emma
+  description: Ansible role to install Java, Jenkins, and Docker on Ubuntu machines.
+  company: JJTECH
+  license: 
+  min_ansible_version: '1.0'
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - jammy
+        - noble
+
+  galaxy_tags:
+  - java
+  - jenkins
+  - docker
+  - ubuntu
+  - automation
+
+dependencies: []
